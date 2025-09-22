@@ -1,0 +1,151 @@
+/* -- Body-- */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* --Header -- */
+header {
+  background: brown;
+  color: burlywood;
+  padding: 15px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: orange;
+}
+
+/* -- Hero Section--*/
+.hero {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.heros {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.heros h3 {
+  color: #444;
+  font-size: 1.4rem;
+}
+
+/*--Contact Box (form + aside)--*/
+.box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/*--Form Styling--*/
+.form {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+#buttons {
+  background: orange;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+#buttons:hover {
+  background: orangered;
+}
+
+/*--Aside Contact Info--*/
+aside {
+  flex: 0.4;
+  background: burlywood;
+  padding: 20px;
+  border: 3px solid brown;
+  border-radius: 8px;
+  text-align: left;
+}
+
+aside p {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+/*--Location Map--*/
+.location {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.location h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.location iframe {
+  width: 80%;
+  height: 300px;
+  border: 2px solid gray;
+  border-radius: 6px;
+}
+
+/*--footer--*/
+footer {
+  background: brown;
+  color: burlywood;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px 8px 0 0;
+  margin-top: auto; /* ensures footer stays at bottom */
+}
